@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href = "./css/style.css">
+		<link href= rel="stylesheet">
+		<title>Imposto de Renda</title>
+	</head>
+
+	<body>
+
+		<div id="Fundo">
+			<img src="./imagens/imposto.png">
+		</div>
+		<div id="Dados">
+			<legend id="namee">Nome</legend>
+				<input id="Nome" type="text" name="nome">
+			<legend id="namee">Salario Bruto</legend>
+				<input id="Salario" type="number" name="sal_bruto">
+			<button type="button" name="button" onclick="calculo()">Realizar o Calculo</button>
+		</div>
+
+		<table class="table">
+			<tr>
+				<th class="tit">NOME</th>
+				<th class="tit">SALÁRIO BRUTO</th>
+				<th class="tit">% INSS</th>
+				<th class="tit">INSS</th>
+				<th class="tit">% IRPF</th>
+				<th class="tit">IRPF</th>
+				<th class="tit">SALÁRIO LÍQUIDO</th>
+			</tr>
+		</table>
+	
+		<script src="./scripts/app.js"></script>
+
+	</script>
+</body>
+
+
+</html>

@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 425px){
+    body{
+        background-color:#B4B9FF;
+    }
+
+    #Fundo{
+        position: relative;
+        left:25vw;
+        width:50%;
+    }
+
+    #Fundo img{
+        width:100%;
+    }
+
+    legend{
+        width:75%;
+        position: relative;
+        text-align: center;
+        left:6vw;
+        font-family: 'Tomorrow', sans-serif;
+        font-size:26px;
+        font-weight: bold;
+    }
+
+    #Dados{
+        width:90%;
+        position: relative;
+        top:2vw;
+        left:5vw;
+    }
+
+    #Nome{
+        border-radius: 5px;
+        width:75%;
+        height:50%;
+        position: relative;
+        left:10vw;
+        font-size:150%;
+    }
+
+    #Salario{
+        border-radius: 5px;
+        width:75%;
+        height:50%;
+        position: relative;
+        left:10vw;
+        font-size:150%;
+    }
+
+    button{
+        background-color: #1527FE;
+        border-color: #1527FE;
+        color:white;
+        border-radius: 16px;
+        width:30%;
+        height:50%;
+        position: relative;
+        left:30vw;
+        top:3vw;
+        font-size:75%;        
+    }
+
+    table{
+        position: relative;
+        top:10vw;
+    }
+
+    .tab{
+        width:10px;
+        position: relative;
+        top:15vw;
+      }
+      th{
+        font-size:75%;
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+      }
+      td{
+        position: relative;
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+        font-family: 'Tomorrow',sans-serif;
+        font-size: 75%;
+      }
+
+
+
+}
+
+@media only screen and (min-width: 426px) and (max-width:1023px){
+    body{
+        background-color:#B4B9FF;
+    }
+
+    #Fundo{
+        position: relative;
+        left:25vw;
+        top:2vw;
+        width:45%;
+    }
+
+    #Fundo img{
+        width:100%;
+    }
+
+    legend{
+        width:100%;
+        position: relative;
+        text-align: center;
+        left:4vw;
+        font-family: 'Tomorrow', sans-serif;
+        font-size:30px;
+        font-weight: bold;
+    } 
+    
+    #Dados{
+        width:70%;
+        position: relative;
+        top:2vw;
+        left:5vw;
+    }
+
+    #Nome{
+        border-radius: 5px;
+        width:45%;
+        height:50%;
+        position: relative;
+        left:25vw;
+        font-size:150%;
+    }
+
+    #Salario{
+        border-radius: 5px;
+        width:45%;
+        height:50%;
+        position: relative;
+        left:25vw;
+        font-size:150%;
+    }
+
+    button{
+        background-color: #1527FE;
+        color: white;
+        width:50%;
+        height:50%;
+        position: relative;
+        left:-8vw;
+        top:6vw;
+        font-size:150%;        
+    }
+
+    table{
+        position: relative;
+        top:10vw;
+    }
+
+    .tab{
+        width:50%;
+        position: relative;
+        top:15vw;
+    }
+
+      th{
+        font-size:143%;
+        padding: 3px;
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+    }
+
+      td{
+        position: relative;
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+        font-family: 'Tomorrow',sans-serif;
+        font-size: 143%;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    body{
+        background-color:rgb(204, 231, 255);
+    }
+
+    #Fundo{
+        position: relative;
+        left:25vw;
+        top:2vw;
+        width:45%;
+    }
+
+    #Fundo img{
+        width:40%;
+        margin: 10%;
+        margin-left:40%;
+      
+    }
+
+    legend{
+        width:100%;
+        position: relative;
+        text-align: center;
+        left:4vw;
+        font-family: 'Tomorrow', sans-serif;
+        font-size:40px;
+        font-weight: bold;
+    } 
+    
+    #Dados{
+        width:90%;
+        height:4vw;
+        position: relative;
+        top:5vw;
+        left:5vw;
+    }
+
+    #Nome{
+        border-radius: 5px;
+        width:35%;
+        height:90%;
+        position: relative;
+        left:30vw;
+        font-size:150%;
+        margin-top: 1%;
+    }
+
+    #Salario{
+        border-radius: 5px;
+        width:35%;
+        height:90%;
+        position: relative;
+        left:30vw;
+        font-size:150%;
+        margin-top: 1%;
+    }
+
+    button{
+        background-color: #1527FE;
+        border-color: #1527FE;
+        color:white;
+        width:20%;
+        margin-top: 1%;;
+        height:100%;
+        position: relative;
+        left:5vw;
+        top:5vw;
+        font-size:150%;        
+    }
+
+    table{
+        position: relative;
+        font-size: 10px;
+        top:28vw;
+    }
+
+    .table{
+        width:90%;
+        font-size: 10%;
+        margin-top:5%; ;
+        position: relative;
+        left: 6vw;
+        top:25vw;
+                
+      }
+      th{
+        font-size:30px;
+        border-style:solid;
+        padding: 3px;
+        border-width:2px;
+        border-color:black;
+        font-family: arial;
+       
+      }
+      td{
+        position: relative;
+        border-style:12px solid black;
+        border-width:333px;
+        margin: 10px;
+        border-color:black;
+        font-family: arial;
+        font-size: 25px;
+       
+        
+}
+input{
+    width: 30%;
+}
+
+#namee{
+    font-size: 150%;
+    font-family: arial;
+    margin:0 ;
+    margin-left:-3% ;
+}
+}
